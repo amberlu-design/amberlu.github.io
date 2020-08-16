@@ -1,0 +1,211 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 1500px;
+}
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('oswald-variablefont_wght-webfont.woff2') format('woff2'),
+         url('oswald-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-style: normal;
+	line-height: 30px
+}
+
+p {
+	font-size: 17px;
+}
+
+br {
+	height:100px;
+}
+
+hr {
+	max-width:70%;
+}
+
+
+/* navigation bar */
+ul {
+	list-style-type: none;
+	padding: 20px;
+	height:50px;
+	margin-right:8%;
+	margin-left:8%;
+	margin-top:3%;
+	margin-bottom: 0px;
+}
+
+li a{
+	display: block;
+	float:right;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color:darkgrey;
+	text-decoration: none;
+}
+
+.navbar {
+	margin-right:8%;
+	margin-left:8%;
+	margin-top:3%;
+	height:50px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar-btn {
+	margin: 5px;
+	background-color: transparent;
+	border: transparent;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color:black;
+}
+
+.container-intro{
+	margin-top: 80px;
+	width: 70%;
+	text-align:left; 
+}
+
+.thumbnail-grid {
+	width: 70%;
+	margin-top:60px;
+	margin-bottom:120px;
+}
+
+.work {
+	border: 1px transparent;
+	margin:auto;
+	box-shadow: 5px 5px 15px lightgrey;
+	justify-content: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-info {
+	width:70%;
+}
+
+.typetag {
+	border-radius:7px;
+	background-color:black;
+	color:white;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:2px;
+	padding-bottom:2px;
+	margin-left:0px;
+	margin-right:6px;
+	display:inline-block;
+}
+
+.readmore {
+  background-color:white;
+  border-radius: 50px;
+  color: #0275d8;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.box {
+	display: block;
+	border: 10px;
+}
+
+/* hover overlay effect */
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  transition: .4s ease;
+  background-color: white;
+}
+
+.work1:hover .overlay {
+  opacity: 0.6;
+}
+
+.work2:hover .overlay {
+  opacity: 0.6;
+}
+
+.work3:hover .overlay {
+  opacity: 0.6;
+}
+
+.work4:hover .overlay {
+  opacity: 0.6;
+}
+
+.description {
+	font-size:17px;
+}
+
+.case{
+	width:70%;
+}
+
+
+/*animation*/
+.zoom {
+  transition: transform .2s;
+    box-shadow: 0px 0px 20px black;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.06); 
+
+}
+
+
+/* footer css */
+hr {
+	width:85%;
+	color:grey;
+}
+
+.page-footer{
+	line-height: 30px;
+  	bottom: 0;
+  	padding:20px;
+}
+
+.lets-connect-email {
+	text-align: center;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+.footer-link {
+	position:relative;
+	text-align: center;
+}
+
+
